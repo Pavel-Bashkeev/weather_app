@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.min.css">
+    <title>Weather app</title>
+  </head>
+  <body>
+    <div id="app">
+      <div id="root"><img class="preloader lazy" data-src="../assets/loader.gif"></div>
+      <div class="popup" id="popup">
+        <form class="form" id="form" action="GET">
+          <input class="form-input" id="text-input" type="text" value="" name="city" placeholder="Moscow" required>
+          <input class="form-submit" id="submit-button" value="OK" type="submit">
+        </form>
+        <div class="popup-close" id="close"><span></span></div>
+      </div>
+    </div>
+    <script src="./js/main.min.js"></script>
+  </body>
+</html>

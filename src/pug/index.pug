@@ -1,0 +1,22 @@
+-
+	let pageTitle = "Weather app";
+doctype html
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(http-equiv="X-UA-Compatible" content="IE=edge")
+		meta(name="viewport" content="width=device-width, initial-scale=1.0")
+		link(rel="stylesheet" href="css/main.min.css")
+		title= pageTitle
+	body
+		#app
+			#root
+				img.preloader.lazy(data-src="../assets/loader.gif")
+			.popup#popup
+				form.form#form(action="GET")
+					input.form-input#text-input(type="text" value="" name="city" placeholder="Moscow" required)
+					input.form-submit#submit-button(value="OK" type="submit")
+				.popup-close#close
+					span
+
+		script(src="./js/main.min.js")

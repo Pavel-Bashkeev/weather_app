@@ -1,0 +1,9 @@
+@import '../vendor/mixins';
+
+@include font-face('Marcellus', '../fonts/Marcellus-Regular', 400);
+@include font-face('Poppins', '../fonts/Poppins-Medium', 400);
+
+@include font-face('Mulish', '../fonts/Mulish-Regular', 400);
+@include font-face('Mulish', '../fonts/Mulish-SemiBold', 600);
+@include font-face('Mulish', '../fonts/Mulish-Bold', 700);
+@include font-face('Mulish', '../fonts/Mulish-ExtraBold', 800);

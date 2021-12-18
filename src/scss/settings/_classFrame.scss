@@ -1,0 +1,100 @@
+.hidden {
+	overflow: hidden;
+}
+
+.visible {
+	overflow: visible;
+}
+
+.pos-ab{
+	position: absolute;
+}
+.pos-rel{
+	position: relative;
+}
+//display--------------------------------------------------------------------------------------------------
+.db {
+	display: block;
+}
+.di{
+	display: inline;
+}
+
+// gird--------------------------------------------------------------------------------------------------
+.dg {
+	display: grid;
+}
+.gr-a{
+	grid-area: 1/1;
+}
+//grid--------------------------------------------------------------------------------------------------
+// flex--------------------------------------------------------------------------------------------------
+.df {
+	display: flex;
+}
+
+.dir-col {
+	flex-direction: column;
+}
+
+.it-c {
+	justify-content: center;
+	align-items: center;
+}
+
+.al-c {
+	align-items: center;
+}
+
+.al-s {
+	align-items: stretch;
+}
+
+.ju-c {
+	justify-content: center;
+}
+
+.ju-b {
+	justify-content: space-between;
+}
+
+.ju-a {
+	justify-content: space-around;
+}
+
+.grow {
+	flex-grow: 1;
+}
+.wrap {
+	flex-wrap: wrap;
+}
+.shrink{
+	flex-shrink: 0;
+}
+
+// flex--------------------------------------------------------------------------------------------------
+.tac{
+	text-align: center;
+}
+.ttu{
+	text-transform: uppercase;
+}
+.tt-u{
+	text-decoration: underline;
+}
+.tt-a{
+	font-weight: 700;
+	color: inherit;
+}
+.fit{
+	width: fit-content;
+}
+.fttu{
+	&::first-letter{
+		text-transform: uppercase;
+	}
+}
+
+.mr-a{
+	margin:0 auto;
+}

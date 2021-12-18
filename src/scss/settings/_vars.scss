@@ -1,0 +1,24 @@
+// Colors
+$black: #000000;
+$white: #ffffff;
+$accent:#FF3407;
+$default: #2C2929;
+$dark-bg:#282828;
+// Colors
+
+%bg-cover{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+%bg-contain{
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+:root{
+	--font: 'Mulish';
+  --font-second: 'Poppins';
+	--font-decor: 'Marcellus';
+}

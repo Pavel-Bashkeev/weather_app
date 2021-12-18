@@ -1,0 +1,22 @@
+{
+	"extends": "airbnb-base",
+	"parser": "@babel/eslint-parser",
+	"env": {
+		"browser": true
+	},
+	"rules": {
+		"no-unused-vars": "warn",
+		"eol-last" : ["error", "never"],
+		"object-shorthand": "error",
+		"allowShortCircuit": false,
+		"allowTernary": false,
+		"func-names" : "off",
+		"no-tabs": ["warn", {
+			"allowIndentationTabs": true
+		}],
+		"indent": "off",
+		"import/no-extraneous-dependencies": ["error", {
+			"devDependencies": true
+		}]
+	}
+}

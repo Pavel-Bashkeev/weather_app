@@ -1,0 +1,17 @@
+{
+	"validateExtensions": true,
+  "validateDivTags": true,
+  "validateAttributeSeparator": { "separator": " ", "multiLineSeparator": " \n " },
+  "validateAttributeQuoteMarks": "\"",
+  "requireSpecificAttributes": [ {"a": ["href"]} ],
+  "requireSpaceAfterCodeOperator": true,
+  "requireLowerCaseTags": true,
+  "requireClassLiteralsBeforeIdLiterals": true,
+  "requireClassLiteralsBeforeAttributes": true,
+  "disallowTrailingSpaces": true,
+  "disallowSpacesInsideAttributeBrackets": true,
+  "disallowLegacyMixinCall": true,
+  "disallowDuplicateAttributes": true,
+	"validateLineBreaks" : "LF",
+	"disallowAttributeInterpolation": true
+}
